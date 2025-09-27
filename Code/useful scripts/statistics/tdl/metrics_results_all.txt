@@ -1,0 +1,6 @@
+XGBoost Metrics Results for Target: all
+Dataset: 2400 samples, 60 features, 12 classes
+Training sizes evaluated: [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2200]
+Metrics evaluated on TEST SET
+
+TrainingSize	accuracy	precision_weighted	recall_weighted	f1_weighted
