@@ -37,7 +37,7 @@ Containerized network capture data with labeled PQC and non-PQC sessions.
 - **pqc-paob-docker-20.csv**: Pre-processed dataset with TDL features (600 samples, 20 packets per flow)
 - **110/, 111/, 112/**: Network captures from non-PQC sessions (traditional cryptography)
 - **120/, 121/, 122/**: Network captures from PQC-enabled sessions
-- **Classification Results/**: Model predictions and performance metrics on the docker dataset
+- **Classification Results/**: Model predictions and performance metrics on the Docker dataset
 
 ### PQBench Resources
 
@@ -65,6 +65,15 @@ Comprehensive benchmarking datasets and results from various PQC algorithm evalu
 Academic publication materials and documentation for the PQBench research project.
 Contains cover letters, research papers, and supplementary materials for journal submissions and conference presentations.
 
+### Zoom Recordings
+All the recordings performed by Noam using his setup are located in this [Drive Directory](https://drive.google.com/drive/folders/15u2zkTZNPJ_SjFRxOARhACiZn8bvJD2c?usp=sharing) within the `Zoom` subdirectory.
+To extract all the files, use the following command:
+```bash
+zip -s0 host.zip --out zoom-host.zip
+
+unzip zoom-host.zip
+```
+
 ## Research Focus
 
 This project investigates machine learning approaches for detecting Post-Quantum Cryptography in network traffic through:
@@ -72,7 +81,7 @@ This project investigates machine learning approaches for detecting Post-Quantum
 1. **Feature Engineering**: Time-Direction-Length (TDL) analysis of packet sequences
 2. **Classification**: Multiple ML algorithms (Random Forest, XGBoost, LSTM) for PQC detection
 3. **Benchmarking**: Comprehensive evaluation across different PQC algorithms and network conditions
-4. **Scalability**: Analysis of classification accuracy vs number of packets required
+4. **Scalability**: Analysis of classification accuracy vs the number of packets required
 
 ## Data Format
 
